@@ -1,9 +1,9 @@
 /*
-* 1-13. Escriba un programa que imprima el histograma de
-* las longitudes de las palabras de su entrada. Es fácil dibujar el histagrama
-* con las barras horizonttales; la orientación vertical es un reto más
-* interesante.
-*/
+ * 1-13. Escriba un programa que imprima el histograma de
+ * las longitudes de las palabras de su entrada. Es fácil dibujar el histagrama
+ * con las barras horizonttales; la orientación vertical es un reto más
+ * interesante.
+ */
 
 #include <stdio.h>
 
@@ -29,10 +29,10 @@ int main() {
 			ndigitw[cw] = 0;
 		}
 	}
-	
+
 	printf("El número de palabras es: %d\n", cw);
 	putchar('\n');
-	
+
 	for (int i = 0; i < cw; i++) {
 		for (int j = 0; j <= ndigitw[i]; j++)
 			putchar('*');
