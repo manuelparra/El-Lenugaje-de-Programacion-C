@@ -30,7 +30,7 @@ int main() {
 	return 0;
 }
 
-/* definición de la función get_new_line: lee una lines en s, regresa su longitud */
+/* definición de la función get_new_line: lee una linea en s, regresa su longitud */
 int get_new_line(char s[], int lim) {
 	int c, i;
 
