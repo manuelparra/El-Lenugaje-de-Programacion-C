@@ -10,9 +10,6 @@
 /* get_line: declaración de la función para leer líneas */
 int get_line(char line[], int maxline);
 
-/* copy: declaración de la función para copiar líneas */
-void copy(char to[], char from[]);
-
 /* imprime todas las líneas con mas de 80 caracteres de longitud */
 int main() {
 	int len; /* longitud actual de la línea */
@@ -43,15 +40,5 @@ int get_line(char s[], int lim) {
 	s[i] = '\0';
 
 	return i;
-}
-
-/* copy: copia 'from' en 'to' supone que to es suficientemente grande  */
-void copy(char to[], char from[]) {
-	int i;
-
-	i = 0;
-
-	while ((to[i] = from[i]) != '\0')
-		++i;
 }
 
