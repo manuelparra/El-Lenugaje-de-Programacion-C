@@ -1,9 +1,0 @@
----
-triple:          'arm64-apple-darwin'
-binary-path:     'Ejecutables/macOS/1-9-arreglo-de-caracteres'
-relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003D3C, symSize: 0xE8 }
-  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003D3C, symSize: 0xE8 }
-  - { offsetInCU: 0x94, offset: 0x94, size: 0x8, addend: 0x0, symName: _get_line, symObjAddr: 0xE8, symBinAddr: 0x100003E24, symSize: 0xF8 }
-  - { offsetInCU: 0xE6, offset: 0xE6, size: 0x8, addend: 0x0, symName: _copy, symObjAddr: 0x1E0, symBinAddr: 0x100003F1C, symSize: 0x54 }
-...
